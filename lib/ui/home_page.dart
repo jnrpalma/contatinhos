@@ -209,6 +209,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  //?metodo para ordenação de contatos
   void _orderList(OrderOptions result) {
     switch (result) {
       case OrderOptions.orderaz:
